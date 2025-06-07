@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, 'Trebuchet MS', Tahoma, sans-serif;
+    background-color: honeydew;
+}
+
+.title, .subtitle{
+    text-align: center;
+}
+
+.recipe-list{
+    background-color: seashell;
+    border: solid 1px rgb(186, 199, 186);   
+    width: 25%;
+    border-radius: 8px;
+    padding: 16px;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+}
