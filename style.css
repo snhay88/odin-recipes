@@ -1,21 +1,42 @@
 body{
     font-family: Verdana, 'Trebuchet MS', Tahoma, sans-serif;
     background-color: honeydew;
+    border: solid 1px rgb(205, 205, 205);
+    text-align: center;
+    margin: 16px auto;
+    width: min-content;
+    padding: 8px;
 }
 
 .title, .subtitle{
     text-align: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin: 16px 0x;
 }
 
-.recipe-list{
+.center-text{
+    text-align: center;
+}
+
+.recipe-list-container{
     background-color: seashell;
     border: solid 1px rgb(186, 199, 186);   
-    width: 25%;
+    width: max-content;
     border-radius: 8px;
     padding: 16px;
     margin: auto;
 }
 
+.recipe-list-container li{
+    padding: 8px;
+    font-size: 20px;
+    text-align: left;
+}
+
 .footer{
     text-align: center;
+    width: 100%;
+    margin: 8px 0;
+    border-top: 1px solid;
 }
